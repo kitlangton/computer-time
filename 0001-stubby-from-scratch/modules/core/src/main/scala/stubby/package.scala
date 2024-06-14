@@ -1,3 +1,9 @@
 package stubby
 
-object `Welcome to this empty file! I've been waiting for you for some time now.`
+// val myString = "What the heck?"
+// //debug(myString)
+// "myString" + " = " + myString
+
+@main def main =
+  val result = debug("hello")
+  println(debug(result))
